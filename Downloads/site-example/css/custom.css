@@ -1,0 +1,281 @@
+body {
+	background-color: white;
+}
+
+@font-face{
+    font-family:"Dry_Brush";
+    src: url(../dry_brush/Dry_Brush.ttf);
+}
+
+@font-face{
+    font-family: "AsobiMemogaki";
+    src: url(../asobi2/AsobiMemogaki.ttf);
+}
+
+@font-face{
+    font-family: "JK";
+    src: url(../jk-skinny/JK.ttf);
+}
+
+h1 {
+    font-family: Dry_Brush;
+    text-align: center;
+}
+
+#homeHeader{
+    padding-top:60px;
+    font-size: 155px;
+}
+
+#shopHeader{
+    padding-top: 60px;
+    font-size: 155px;
+}
+
+#aboutHeader{
+    padding-top: 60px;
+    font-size: 155px;
+}
+
+#eventHeader{
+    padding-top: 60px;
+    font-size: 155px;
+}
+
+#galleryHeader{
+    padding-top: 60px;
+    font-size: 155px;
+}
+
+#shopBod{
+    background-image: url(../Shopping/shoppingBG.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+}
+
+p {
+    text-align: center;
+}
+
+.bgimage {
+    background-image: url('../Pics/homepage.png');
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+
+}
+
+.bgimage1 {
+    background-image: url('../header.png');
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+
+}
+
+nav{
+    text-align: center;
+}
+
+#button{
+    width: 80%;
+    max-width: 100px;
+}
+
+@media only screen and (max-width : 992px) {
+    #button
+    {
+        width: 80%;
+        max-width: 100px;
+        min-width: 80px;
+    }
+}
+
+#search{
+    width: 30%;
+    max-width: 100px;
+    min-width: 80px;
+}
+
+#boxSe input[type="text"]{
+    position: inherit;
+    left:20%;
+    top:30%;
+    background-color:white;
+    color:grey;
+}
+
+#barSe{
+    text-align: center;
+}
+
+#photo{
+    position: relative;
+    float: left;
+    width:  250px;
+    height: 200px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#text{
+    text-align: left;
+}
+
+#title{
+    text-align: center;
+    color: black;
+}
+
+#title:hover{
+    color: #ff6767;
+}
+
+#title:link{
+    text-decoration: none;
+}
+
+#title:visited{
+    text-decoration: none;
+    color: #fbb5b5;
+}
+
+#boxSe input[type="text"] {
+    margin-bottom: 30px;
+    background-color: white;
+    color: grey;
+}
+
+#search{
+    vertical-align: bottom;
+}
+
+#namba1{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+#namba2{
+    padding-bottom: 10px;
+}
+
+#nambaMall{
+    font-family: Dry_Brush;
+    text-align: left;
+    font-size: 20px;
+}
+
+#nambaInfo{
+    font-family: AsobiMemogaki;
+    padding-top: 95px;
+    padding-bottom: 42px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#transportation{
+    font-family: Dry_Brush;
+    background-color: aliceblue;
+}
+
+#transportation1{
+    font-family: AsobiMemogaki;
+    font-size: 20px;
+    text-align: left;
+}
+
+#transportation2{
+    font-family: Dry_Brush;
+    background-color: lightyellow;
+}
+
+#transportation3{
+    font-family: AsobiMemogaki;
+    text-align: left;
+}
+
+#transportation4{
+    font-family: AsobiMemogaki;
+}
+
+#stores{
+    font-family: Dry_Brush;
+    text-align: center;
+    background-color: #ffe7ee;
+}
+
+#transpo1{
+    width: 560px;
+    height: 315px;
+    line-height: 3em;
+    overflow: auto;
+}
+
+#stores1{
+    width: 560px;
+    height: 315px;
+    line-height: 3em;
+    overflow: auto;
+}
+
+#stores2{
+    font-family: AsobiMemogaki;
+}
+
+#stores3{
+    font-family: AsobiMemogaki;
+    text-align: center;
+}
+
+#nambaInfoBG{
+    background-image: url(../Shopping/notepad.jpg);
+}
+
+#fest{
+    font-family: Dry_Brush;
+}
+
+#fest1{
+    text-align: left;
+    font-family: JK;
+    font-weight: bold;
+}
+
+#fest2{
+    padding-top: 56px;
+}
+
+#fest3{
+    text-align: left;
+    font-family: JK;
+    padding-top: 6px;
+    font-weight: bold;
+}
+
+#fest4{
+    font-family: JK;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+#fest5{
+    font-family: Dry_Brush;
+}
+
+#fest6{
+    font-family: JK;
+    text-align: left;
+}
+
+#me2{
+    font-family: Dry_Brush;
+    font-size: 20px;
+}
+
+#me3{
+    font-family: JK;
+}
