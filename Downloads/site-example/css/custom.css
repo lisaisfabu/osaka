@@ -81,8 +81,15 @@ nav{
 }
 
 #button{
-    width: 80%;
+    /*width: 80%;*/
     max-width: 100px;
+}
+
+.nav-justified > li > a {
+    margin-bottom: 0;
+    font-family: Dry_Brush;
+    color: black;
+    font-size: 15px;
 }
 
 @media only screen and (max-width : 992px) {
@@ -120,6 +127,10 @@ nav{
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#author{
+    font-family: JK;
 }
 
 #text{

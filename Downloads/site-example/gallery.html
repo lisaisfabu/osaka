@@ -7,7 +7,6 @@
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>Gallery</title>
 
-        <script type="text/javascript" src="js/instafeed.min.js"></script>
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/custom.css" rel="stylesheet">
 
@@ -25,16 +24,16 @@
     <div class="container">
         <nav class="navbar">
             <ul class="nav nav-pills nav-justified">
-                <li><a class="btn"href="index.html" id="overlay"> <img id="button" class="img-circle img-responsive center-block" src="gallery/homepagebutton.png"></a></li>
+                <li><a class="btn"href="index.html" id="overlay"> <img id="button" class="img-circle img-responsive center-block" src="gallery/homepagebutton.png">HOME</a></li>
                 <li> 
                     <a class="btn"href="http://www.pref.osaka.lg.jp/en/introduction/history.html"> 
-                        <img id="button" class="img-circle img-responsive center-block" src="gallery/historybutton.png">
+                        <img id="button" class="img-circle img-responsive center-block" src="gallery/historybutton.png">HISTORY
                     </a>
                 </li>
-                <li><a class="btn"href="festivals.html"> <img id="button" class="img-circle img-responsive center-block" src="gallery/eventsbutton.png"></a></li>
-                <li><a class="btn"href="shopping.html"> <img id="button" class="img-circle img-responsive center-block" src="gallery/shoppingbutton.png"></a></li>
-                <li><a class="btn"href="gallery.html"> <img id="button" class="img-circle img-responsive center-block" src="gallery/gallerybutton.png"></a></li>
-                <li><a class="btn"href="about.html"> <img id="button" class="img-circle img-responsive center-block" src="gallery/aboutbutton.png"></a></li>
+                <li><a class="btn"href="festivals.html"> <img id="button" class="img-circle img-responsive center-block" src="gallery/eventsbutton.png">FESTIVALS</a></li>
+                <li><a class="btn"href="shopping.html"> <img id="button" class="img-circle img-responsive center-block" src="gallery/shoppingbutton.png">SHOPPING</a></li>
+                <li><a class="btn"href="gallery.html"> <img id="button" class="img-circle img-responsive center-block" src="gallery/gallerybutton.png">GALLERY</a></li>
+                <li><a class="btn"href="about.html"> <img id="button" class="img-circle img-responsive center-block" src="gallery/aboutbutton.png">ABOUT</a></li>
                 <li>
                     <form class="navbar-form navbar-left" role="search">
                         <div class="form-group">
@@ -51,21 +50,16 @@
             </form>
         </nav>
     </div> 
-    
-    <div id="instafeed"></div>
         
-    <script type="text/javascript">
-        var feed = new Instafeed({
-        get: 'tagged',
-        tagName: 'osakajapan',
-        clientId: 'abaefc0776cb462dbbb3d2aff3560f51',
-        accessToken: '351086212.1677ed0.8e34b24dd1f0470b948235b372fcf927'
-        });
-    feed.run();
-    </script>
+    <div id="gallery" class="text-center">
+    <!-- InstaWidget -->
+    <a href="https://instawidget.net/v/tag/osakajapan" class="wid" id="link-4ec306755656cc811b551217f354c857d91657e6d4eb8767cb1d471ede8417ec">#osakajapan</a>
+    <script src="https://instawidget.net/js/instawidget.js?u=4ec306755656cc811b551217f354c857d91657e6d4eb8767cb1d471ede8417ec&width=700px"></script>
+            </div>
     
     <!-- DO NOT EDIT BELOW THIS COMMENT -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+        
     </body>
 </html>
